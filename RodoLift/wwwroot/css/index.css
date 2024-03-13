@@ -1,0 +1,128 @@
+﻿.mark-area {
+    width: 1440px;
+    height: 660px;
+    margin-bottom: 65px;
+}
+
+.mask {
+    position: relative;
+    top: 10px;
+    z-index: 3;
+    width: 1500px;
+    mask-image: url(../img/LOGO-MASCARA.png);
+    mask-size: 1200px;
+    mask-repeat: no-repeat;
+    mask-position: 45% 16%;
+}
+
+.white {
+    position: relative;
+    top: -670px;
+    z-index: 2;
+    width: 1500px;
+    height: 379px;
+    background-color: white;
+}
+
+.under-mask {
+    position: relative;
+    top: -1048px;
+    width: 1500px
+}
+
+.slogan-area{
+    height: 450px;
+}
+
+.slogan-img {
+    width: 50px;
+    height: 270px;
+    background-color: #84bd00;
+    mask-image: url(../img/i.png);
+    mask-size: 50px;
+    mask-repeat: no-repeat;
+    position: relative;
+    top: 44px;
+    left: 310px;
+}
+
+.slogan-text {
+    position: relative;
+    top: -154px;
+    left: 343px;
+    height: 270px;
+}
+
+.s-p {
+    font-size: smaller;
+    position: relative;
+    left: 40px;
+    margin: 0px;
+}
+
+.s-s-1, .s-s-2, .s-s-3 {
+    font-size: 80px;
+    position: relative;
+    left: 0px;
+}
+
+.s-s-1{
+    top: -20px;
+
+}   
+
+.s-s-2{
+    top: -90px;
+
+}
+
+.s-s-3 {
+    top: -140px;
+
+}
+
+.info-text-area{
+    position: relative;
+    left: 650px;
+    top: -450px;
+}
+
+.i-p-1 {
+    font-size: 28px;
+    width: 410px;
+}
+
+.i-p-2 {
+    width: 380px;
+}
+
+.i-a {
+    border: dimgrey 1px solid;
+    border-radius: 20px;
+    padding: 5px 30px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.i-a:hover{
+    background-color: dimgrey;
+    color:white;
+}
+
+
+.just-mask-area {
+    position: absolute;
+    right: 250px;
+}
+
+.just-mask {
+    width: 600px;
+    height: 500px;
+    mask-image: url(../img/shape-mask.png);
+    mask-position: 20% 50%;
+    mask-repeat: no-repeat;
+    mask-size: 800px;
+}
