@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iO8KJQCBBugQYiNLvcFl/PciDEK6/DtNHNK/t4DMpOQ=",
+  "Hash": "uOanHcGJ9+DTcohOwpyTIm5keUvfiMBABnf74uo+vGk=",
   "Source": "RodoLift",
   "BasePath": "_content/RodoLift",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RodoLift.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\aboutUs.css",
+      "SourceId": "RodoLift",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\",
+      "BasePath": "_content/RodoLift",
+      "RelativePath": "css/aboutUs.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\aboutUs.css"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\index.css",

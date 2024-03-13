@@ -1,0 +1,11 @@
+﻿.masked {
+    width: 500px;
+    height: 250px;
+    background-color: #84bd00;
+    mask-image: url(../img/i.png);
+    mask-size: 145px;
+    mask-repeat: no-repeat;
+    position: relative;
+    top: 44px;
+    left: 310px;
+    }

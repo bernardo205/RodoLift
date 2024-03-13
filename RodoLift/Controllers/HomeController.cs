@@ -10,5 +10,11 @@ namespace RodoLift.Controllers
         {
             return View();
         }
+
+        [HttpGet("/aboutUs")]
+        public IActionResult AboutUs    ()
+        {
+            return View();
+        }
     }
 }

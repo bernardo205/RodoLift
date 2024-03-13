@@ -2,6 +2,9 @@ html {
   font-size: 14px;
   overflow-x: hidden;
 }
+html::-webkit-scrollbar {
+    display: none;
+}
 
 @media (min-width: 768px) {
   html {
@@ -22,7 +25,14 @@ body {
   margin-bottom: 60px;
 }
 
-footer{
+header, footer, nav{
+    background-color: black;    
+}
+main{
+    margin-top: 80px;
+}
+footer{   
+    color: white;
     position:relative;
     bottom: -100px;    
     margin: 0px;
