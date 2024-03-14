@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\aboutUs.css"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -65,8 +69,16 @@
       "PackagePath": "staticwebassets\\img\\boom-truck-rental-1-1.png"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião com grua3.webp",
+      "PackagePath": "staticwebassets\\img\\camião com grua3.webp"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião grua ca vai.jpg",
       "PackagePath": "staticwebassets\\img\\camião grua ca vai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião grua desc.jpg",
+      "PackagePath": "staticwebassets\\img\\camião grua desc.jpg"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião-grua1.jpeg",

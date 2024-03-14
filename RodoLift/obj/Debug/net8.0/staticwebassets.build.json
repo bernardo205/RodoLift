@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bH9dRr5we2eiUgwBbEohKbuZ7Mr6TN4B+JIpkrSMdm4=",
+  "Hash": "s1Z20Af+rvjzVH0FvPtXMqW5TzvvjCocJFhPIUrRgis=",
   "Source": "RodoLift",
   "BasePath": "_content/RodoLift",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\aboutUs.css"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\details.css",
+      "SourceId": "RodoLift",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\",
+      "BasePath": "_content/RodoLift",
+      "RelativePath": "css/details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\index.css",
@@ -207,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\img\\boom-truck-rental-1-1.png"
     },
     {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião com grua3.webp",
+      "SourceId": "RodoLift",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\",
+      "BasePath": "_content/RodoLift",
+      "RelativePath": "img/camião com grua3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\camião com grua3.webp"
+    },
+    {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião grua ca vai.jpg",
       "SourceId": "RodoLift",
       "SourceType": "Discovered",
@@ -224,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\camião grua ca vai.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião grua desc.jpg",
+      "SourceId": "RodoLift",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\",
+      "BasePath": "_content/RodoLift",
+      "RelativePath": "img/camião grua desc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\camião grua desc.jpg"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\camião-grua1.jpeg",

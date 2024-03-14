@@ -12,9 +12,16 @@ namespace RodoLift.Controllers
         }
 
         [HttpGet("/aboutUs")]
-        public IActionResult AboutUs    ()
+        public IActionResult AboutUs()
         {
             return View();
         }
+
+        [HttpGet("/details")]
+        public IActionResult Details()
+        {
+            return View();
+        }
+
     }
 }
