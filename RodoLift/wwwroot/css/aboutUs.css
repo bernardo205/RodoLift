@@ -1,11 +1,66 @@
-﻿.masked {
-    width: 500px;
-    height: 250px;
+﻿.text-area{
+    width: 450px;
+    height:700px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.p-1 {
+    color: #84db00;
+    font-size: 15px;
+}
+
+.p-2{
+    font-size: 65px;
+    position:relative;
+    top: -45px;
+}
+
+.p-3 {
+    position: relative;
+    top: -50px;
+    font-size: 25px;
+}
+
+.p-4 {
+    position: relative;
+    top: -65px;
+    font-size: 18px;
+}
+
+.text-area a {
+    border: black 1px solid;
+    border-radius: 20px;
+    padding: 5px 30px;
+    position: relative;
+    top: -40px;
+    left: 80px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.partilha {
+    position: relative;
+    top: -65px;
+    left: 270px;
+}
+
+.masked {
+    width: 700px;
+    height: 385px;
     background-color: #84bd00;
     mask-image: url(../img/i.png);
-    mask-size: 145px;
+    mask-size: 200px;
     mask-repeat: no-repeat;
     position: relative;
-    top: 44px;
-    left: 310px;
-    }
+    left: 550px;
+    top: -550px;
+  }
+
+.moveIt{
+    max-width: 1440px;
+    position:relative;
+    z-index: 2;
+}
