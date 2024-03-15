@@ -1,5 +1,10 @@
-﻿.text-area {
+﻿main{
+    height: 1150px;
+}
+
+.text-area {
     width: 400px;
+    height: 900px;
     position: relative;
     left: 250px;
     top: 80px;
@@ -46,6 +51,7 @@
     color: black;
     background-color: #84db00;
     cursor: pointer;
+
 }
 
 .partilha {
@@ -79,14 +85,28 @@
     height: auto;
     position: relative;
     top: -23px;
-    left: 340px;
+    left: 350px;
     border: black 1px solid;
     border-radius: 60%;
 }
 
 
+.setores{
+    position: relative;
+    top: -220px;
+    left: 770px;
+    font-size: 25px;
+    width:420px;
+    text-align:end
+}
+.s-p-2{
+    font-size: 20px;
+}
 
-
+.movin-text-area{
+    position: relative;
+    top: -150px;
+}
 
 .scrolling_text {
     width: 100%;
@@ -112,6 +132,7 @@
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
+
     animation: animate_text 30s linear infinite; /* The animation property */
 }
 .text-rev {

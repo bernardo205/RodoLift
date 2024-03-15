@@ -1,7 +1,8 @@
-﻿.mark-area {
+﻿.mask-area {
     width: 1440px;
     height: 660px;
-    margin-bottom: 65px;
+    background-color: black;
+    margin-bottom: 15px;
 }
 
 .mask {
@@ -10,24 +11,25 @@
     z-index: 3;
     width: 1500px;
     mask-image: url(../img/LOGO-MASCARA.png);
-    mask-size: 1200px;
+    mask-size: 85%;
     mask-repeat: no-repeat;
-    mask-position: 45% 16%;
+    mask-position: 55% 15%;
 }
 
 .white {
+    width: 1600px;
     position: relative;
     top: -690px;
+    left: 0%;
     z-index: 2;
-    width: 1500px;
-    height: 400px;
+    height: 420px;
     background-color: black;
 }
 
 .under-mask {
+    width: 1500px;
     position: relative;
-    top: -1069px;
-    width: 1500px
+    top: -1085px;
 }
 
 .slogan-area{
@@ -177,7 +179,16 @@
     top: -180px;
 }
 
-.justificativa{
+.carousel-area h5{
+    color: #84db00;
+    text-align: center;
+}
+.carousel-area p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.justificativa {
     height: 450px
 }
 
