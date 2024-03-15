@@ -7,13 +7,12 @@
 
 .mask {
     position: relative;
-    top: 10px;
     z-index: 3;
     width: 1500px;
     mask-image: url(../img/LOGO-MASCARA.png);
     mask-size: 85%;
     mask-repeat: no-repeat;
-    mask-position: 55% 15%;
+    mask-position: 35% 15%;
 }
 
 .white {
@@ -29,11 +28,13 @@
 .under-mask {
     width: 1500px;
     position: relative;
-    top: -1085px;
+    top: -1095px;
 }
 
 .slogan-area{
     height: 450px;
+    display: flex;
+    justify-content: space-between
 }
 
 .slogan-img {
@@ -114,8 +115,8 @@
     color:white;
 }
 
-
 .btn-area{
+    width: 500px;
     position: relative;
     left: 450px
 }
@@ -135,6 +136,7 @@
     top: -50px;
     left: 100px;
 }
+
 .btn-area span {
     position: relative;
     left: 50px
@@ -180,9 +182,9 @@
 }
 
 .carousel-area h5{
-    color: #84db00;
     text-align: center;
 }
+
 .carousel-area p {
     font-size: 30px;
     text-align: center;
@@ -190,6 +192,32 @@
 
 .justificativa {
     height: 450px
+
+}
+
+.justificativa h2 {
+    font-size: 60px;
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+
+.j-p {
+    color: #84bd00;
+    font-size: 60px;
+    position: relative;
+    left: 390px;
+    top: 15px;
+}
+
+.j-p strong {
+    color: black;
+}
+
+.j-p-1 {
+    position: relative;
+    left: 350px;
+    top: 25px;
 }
 
 .just-mask-area {
@@ -204,4 +232,629 @@
     mask-position: 70% 50%;
     mask-repeat: no-repeat;
     mask-size: 600px;
+}
+
+@media screen and (max-width: 576px) {
+    main{
+        height: 2000px;
+        margin-bottom: -100px;
+    }
+
+    .mask-area {
+        height: 150px;
+    }
+
+    .mask {
+        max-width: 576px;
+        mask-size: 70%;
+        mask-position: 10% 10%
+    }
+
+    .white {
+        height: 150px;
+        top: -290px;
+    }
+
+    .under-mask {
+        display: none
+    }
+
+    .slogan-img, .slogan-text {
+        display: none;
+    }
+
+    .info-text-area {
+        text-align: center;
+        left: -35px;
+        top: 30px;
+    }
+
+    .btn-area {
+        top: 0px;
+        left: 60px;
+
+    }
+    .btn-area a {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .btn-area a:hover + .a-img {
+        display: none;
+    }
+
+    .carousel-area img {
+        max-width: 400px;
+    }
+    .carousel-area {
+        position: relative;
+        top: -150px;
+        margin-left: -65px;
+    }
+    .btn-prev, .btn-next {
+        position: relative;
+        top: 5px;
+        left: 270px;
+        background-color: black;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    .btn-next {
+        top: -23px;
+        left: 325px;
+    }
+
+    .justificativa{
+        position:relative;
+        top:-150px;
+    }
+    .just-mask {
+        display: none;
+    }
+
+    .justificativa h2 {
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+
+    .j-p {
+        position: relative;
+        left: 90px;
+        top: 15px;
+    }
+
+    .j-p-1 {
+        left: 50px;
+        top: 25px;
+    }
+
+}
+@media screen and (min-width: 576px) {
+    main {
+        margin-bottom: 100px;
+    }
+
+    .mask-area{ 
+        height: 250px;
+    }
+
+    .mask {
+        max-width: 45%;
+    }
+    
+    .white {
+        width: 100%;
+        top: -300px;
+        height: 200px;
+
+    }
+
+    .slogan-img, .slogan-text {
+        display: none;
+    }
+
+    .info-text-area {
+        text-align:center;
+        left: -70px;
+        top: 0px;
+    }
+
+    i-a{
+        left: -150px;
+    }
+
+
+    .btn-area {
+        top: -50px;
+        left: 100px;
+    }
+
+    .btn-area a {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .btn-area a:hover + .a-img {
+        display: block;
+    }
+
+    .carousel-area{
+        position: relative;
+        top: -150px;
+        margin-left: -50px;
+    }
+
+    .carousel-area img{
+        max-width: 500px;
+    }
+    .carousel-area h5{
+        text-align:start;
+        position: relative;
+        
+    }
+
+    .btn-prev , .btn-next{
+        position:relative;
+        top: 5px;
+        left: 350px;
+        background-color: black;
+        width: 50px;
+        border-radius:50px;
+    }
+
+    .btn-next {
+        top: -23px;
+        left: 405px;
+    }
+
+    .justificativa {
+        height: 450px;
+        position: relative;
+        top: -150px;
+    }
+
+    .just-mask-area {
+        display: none;
+    }
+
+    .justificativa h2 {
+        left: 150px;
+    }
+
+    .j-p {
+        left: 190px;
+    }
+
+    .j-p-1 {
+        left: 150px;
+    }
+}
+@media screen and (min-width: 768px) {
+    main {
+        margin-bottom: 100px;
+    }
+
+    .mask-area{
+        height: 250px;
+    }
+
+    .mask {
+        max-width: 992px;
+        mask-size: 70%;
+        mask-position: 10% 10%
+        
+    }
+
+    .under-mask {
+        display: inherit;   
+        max-width: 992px;
+        top: -670px;
+    }
+
+    .white {
+        width: 100%;
+        top: -457px;
+        height: 220px;
+    }
+
+    .slogan-img, .slogan-text {
+        display: none;
+    }
+
+    .slogan-area{
+        display: block;
+        position: relative;
+        top:195px;
+        left: 340px;
+    }
+
+    .info-text-area {
+        width: 415px;
+        left: -140px;
+        height: 270px;
+    }
+
+    .i-a{
+        left:0px;
+    }
+
+    .btn-area {
+        top: 40px;
+        left:200px;
+    }
+
+    .btn-area a {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-area{
+        position: relative;
+        top: -150px;
+        margin-left: -50px;
+    }
+
+    .carousel-area img{
+        max-width: 700px;
+    }
+
+    .carousel-area h5{
+        color: #84db00;
+        position: relative;
+        top: 30px;
+        left: 100px;
+    }
+
+    .carousel-area p {
+        position: relative;
+        top:30px;
+        left: -250px;
+    }
+
+    .btn-prev , .btn-next{
+        position:relative;
+        top: 5px;
+        left: 550px;
+        background-color: black;
+        width: 50px;
+        border-radius:50px;
+    }
+
+    .btn-next {
+        top: -23px;
+        left: 605px;
+    }
+
+    .justificativa {
+        height: 450px;
+        position: relative;
+        top: -150px;
+    }
+
+    .just-mask-area {
+        display: inherit;
+        left: 390px;
+
+    }
+
+    .justificativa h2 {
+        left: 100px;
+    }
+
+    .j-p {
+        left: 150px;
+    }
+
+    .j-p-1 {
+        left: 100px;
+    }
+}
+@media screen and (min-width: 992px) {
+    main {
+        margin-bottom: 100px;
+    }
+
+    .mask-area {
+        height: 250px;
+    }
+
+    .mask {
+        max-width: 1200px;
+        mask-size:80%;
+        mask-position: 0% 10%
+    }
+
+    .under-mask {
+        max-width: 1200px;
+        top: -840px;
+    }
+
+    .white {
+        width: 100%;
+        top: -552px;
+        height: 290px;
+    }
+
+    .slogan-area {
+        display: flex;
+        margin-top: 100px;
+        height: 450px;
+        left: 0px;
+    }
+    
+    .slogan-img, .slogan-text {
+        display: inherit;
+    }
+
+    .slogan-img {
+
+        top: 44px;
+        left: 150px;
+    }
+
+    .slogan-text {
+        position: relative;
+        top: -154px;
+        left: 175px;
+        height: 270px;
+    }
+
+    .img-slogan{
+        width: 250px;
+        height:350px;
+    }
+
+    .info-text-area {
+        text-align: center;
+        left: -70px;
+        top: 70px;
+    }
+
+    .i-a {
+        left: -165px;
+    }
+
+    .btn-area {
+        left: 290px;
+        top: 100px;
+    }
+
+    .btn-area a {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-area {
+        position: relative;
+        top: -150px;
+        margin-left: -60px;
+    }
+
+    .carousel-area img {
+        max-width: 900px;
+    }
+
+    .carousel-area h5 {
+        color: #84db00;
+        position: relative;
+        top: 30px;
+        left: 100px;
+    }
+
+    .carousel-area p {
+        position: relative;
+        top: 30px;
+        left: -250px;
+    }
+
+    .btn-prev, .btn-next {
+        position: relative;
+        top: 5px;
+        left: 750px;
+        background-color: black;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    .btn-next {
+        top: -23px;
+        left: 805px;
+    }
+
+    .justificativa {
+        height: 450px;
+        position: relative;
+        top: -150px;
+    }
+
+    .just-mask {
+        width: 600px;
+        height: 800px;
+        mask-position: 30% 35%;
+    }
+
+    .just-mask-area {
+        display: inherit;
+        left: 390px;
+    }
+
+    .justificativa h2 {
+        left: 100px;
+    }
+
+    .j-p {
+        left: 150px;
+    }
+
+    .j-p-1 {
+        left: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    main {
+        margin-bottom: 100px;
+    }
+
+    .mask-area {
+        height: 250px;
+    }
+
+    .mask {
+        max-width: 1400px;
+        mask-position: 10% 10%;
+        mask-size: 80%;
+    }
+
+    .under-mask {
+        max-width: 1400px;
+        top: -980px;
+    }
+
+    .white {
+        width: 100%;
+        top: -644px;
+        height: 340px;
+    }
+
+    .slogan-area {
+        margin-top: 150px;
+    }
+
+    .img-slogan{
+        position: relative;
+        left: 150px;
+        top: 50px;
+    }
+
+    .info-text-area {
+        text-align: center;
+        left: -150px;
+        top: 100px;
+    }
+
+    .i-a {
+        left: -35px;
+    }
+
+    .btn-area {
+        height:600px;
+        margin-top: 200px;
+
+    }
+
+    .carousel-area {
+        margin-left: -10px;
+    }
+
+    .carousel-area img {
+        max-width: 1000px;
+    }
+
+    .justificativa {
+        height: 450px;
+        position: relative;
+        top: -150px;
+    }
+
+    .just-mask {
+        width: 500px;
+        height: auto;
+        mask-size: 730px;
+        mask-position: 50% 35%;
+        position: relative;
+        top: -150px;
+        left: 150px;
+    }
+
+    .just-mask-area {
+        display: inherit;
+        left: 390px;
+    }
+
+    .justificativa h2 {
+        left: 150px;
+    }
+
+    .j-p {
+        left: 200px;
+    }
+
+    .j-p-1 {
+        text-align: start;
+        left: 150px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    main{
+        margin-bottom: 100px;
+    }
+    
+    .mask {
+        max-width: 1500px;
+        mask-position: 35% 20%
+    }
+
+    .under-mask {
+        max-width: 1500px;
+        top: -1110px;
+    }
+
+    .white {
+        width: 1500px;
+        top: -699px;
+        height: 425px;
+    }
+
+    .img-slogan {
+        top: 100px;
+    }
+
+    .info-text-area {
+        left: -200px;
+        top: 150px;
+    }
+
+    .btn-area {
+        top: 70px;
+        left: 450px;
+    }
+
+    .carousel-area img {
+        max-width: 1200px;
+    }
+
+    .btn-prev, .btn-next {
+        left: 1000px;
+    }
+
+    .btn-next {
+        top: -23px;
+        left: 1055px;
+    }
+
+    .justificativa {
+        height: 450px;
+        position: relative;
+        top: -150px;
+    }
+
+    .just-mask {
+        top: -150px;
+        left: 350px;
+    }
+
+    .justificativa h2 {
+        left: 250px;
+    }
+
+    .j-p {
+        left: 300px;
+    }
+
+    .j-p-1 {
+        text-align: start;
+        left: 250px;
+    }
 }

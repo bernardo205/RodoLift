@@ -23,5 +23,10 @@ namespace RodoLift.Controllers
             return View();
         }
 
-    }
+		[HttpGet("/ff")]
+		public IActionResult Footer()
+		{
+			return View();
+		}
+	}
 }
