@@ -65,3 +65,66 @@
     z-index: 2;
 }
 
+.image-area img{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 576px){
+    .text-area{
+        left: 0px;
+        text-align:center;
+    }
+    .text-area a{
+        left:-100px;
+    }
+    .partilha{
+        left:20px;
+    }
+    .mask{
+        display:none;
+    }
+    .moveIt{
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .text-area {
+        left: 75px;
+        text-align: center;
+    }
+
+    .text-area a {
+        left: -70px;
+    }
+
+    .partilha {
+        left: 50px;
+    }
+
+    .mask {
+        display: none;
+    }
+
+    .moveIt {
+        width: 100%;
+    }
+    .image-area img{
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .text-area{
+        text-align: start
+    }
+
+    .mask{
+        mask-position: -100% -50%;
+    }
+
+    .image-area img {
+        margin-left: 100px;
+    }
+}
