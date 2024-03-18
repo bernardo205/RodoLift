@@ -47,7 +47,7 @@
     left: 270px;
 }
 
-.masked {
+.mask {
     width: 700px;
     height: 385px;
     background-color: #84bd00;
@@ -119,12 +119,48 @@
     .text-area{
         text-align: start
     }
-
-    .mask{
-        mask-position: -100% -50%;
+    .text-area a{
+        left: 0px;
     }
-
+    .partilha{
+        left:180px;
+    }
+    .mask{
+        display: inherit;
+        left: 450px;
+    }
     .image-area img {
         margin-left: 100px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .mask{
+        left: 550px;
+    }
+    .text-area a{
+        top:-70px;
+    }
+    .partilha{
+        top:-95px;
+    }
+    .image-area img{
+        margin-left: -5px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .text-area{
+        left:250px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    ..image-area{
+        margin:0px;
+    }
+    .image-area img {
+        margin-left: 0px;
     }
 }

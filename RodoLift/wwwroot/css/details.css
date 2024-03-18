@@ -4,7 +4,7 @@
 
 .text-area {
     width: 400px;
-    height: 900px;
+    height: 800px;
     position: relative;
     left: 250px;
     top: 80px;
@@ -132,14 +132,13 @@
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
-
-    animation: animate_text 30s linear infinite; /* The animation property */
+    animation: animate_text 30s linear infinite;
 }
 .text-rev {
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
-    animation: animate_text 30s reverse infinite; /* The animation property */
+    animation: animate_text 30s reverse infinite;
 }
 
 @keyframes animate_text {
@@ -158,5 +157,188 @@
 
     to {
         transform: translate3d(0, 0, 0);
+    }
+}
+@media screen and (max-width:576px){
+    main{
+        height:1300px;
+    }
+    .text-area{
+        left:0px;
+        text-align:center;
+    }
+    .text-area a{
+        left:-50px;
+    }
+    .partilha{
+        left:90px;
+    }
+    .images-carausel img{
+        width: 400px;   
+    }
+    .images-carausel {
+        left: 20px;
+        top: -100px;
+    }
+    .setores{
+        top: 150px;
+        left:0px;
+    }
+    .movin-text-area{
+        top: 160px;
+    }
+}
+@media screen and (min-width: 576px){
+    .text-area {
+        left: 60px;
+        text-align: center;
+    }
+
+    .images-carausel img {
+        width: 450px;
+    }
+
+    .images-carausel {
+        left: 20px;
+        top: -100px;
+    }
+
+    .setores {
+        top: 160px;
+        left: 0px;
+    }
+
+    .movin-text-area {
+        top: 160px;
+    }
+}
+@media screen and (min-width:768px) {
+    main{
+        height: 1100px;
+    }
+    .text-area {
+        left: 0px;
+        text-align: center;
+    }
+
+    .images-carausel img {
+        width: 300px;
+    }
+
+    .images-carausel {
+        left: 395px;
+        top: -500px;
+    }
+
+    .carousel-btn-1 {
+        top: 10px;
+        left: 200px;
+    }
+
+    .carousel-btn-2 {
+        top: -23px;
+        left: 250px;
+    }
+    .setores {
+        top: 160px;
+        left: 0px;
+    }
+
+    .movin-text-area {
+        top: 160px;
+    }
+
+    .text-area a {
+        left: -80px;
+    }
+
+    .partilha{
+        left:  60px;   
+
+    }
+    .setores {
+        top: -200px;
+        left: 300px;
+    }
+
+
+    .movin-text-area{
+        top: -150px;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .text-area{
+        left: 25px;
+    }
+
+    .images-carausel img{
+        width: 400px;
+    }
+    .images-carausel{
+        left: 500px;
+    }
+
+    .carousel-btn-1 {
+        top: 10px;
+        left: 250px;
+    }
+
+    .carousel-btn-2 {
+        top: -23px;
+        left: 300px;
+    }
+    .setores{
+        left: 500px;
+        top: -150px;   
+    }
+
+    .movin-text-area {
+        top: -50px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .text-area {
+        left: 100px;
+    }
+
+    .images-carausel img {
+        width: 450px
+    }
+
+    .setores{
+        left: 600px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .text-area {
+        left: 250px;
+    }
+
+    .images-carausel {
+        left: 550px;
+        top: -600px;
+    }
+
+    .images-carausel img {
+        width: 650px;
+    }
+
+    .carousel-btn-1 {
+        top: 10px;
+        left: 300px;
+    }
+
+    .carousel-btn-2 {
+        top: -23px;
+        left: 350px;
+    }
+
+    .setores {
+        top: -100px;
+        left: 770px;
     }
 }
