@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E93739C-AE8B-4375-91B7-1461F2661E0F}|RodoLift.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\rodolift\\rodolift\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4E93739C-AE8B-4375-91B7-1461F2661E0F}|RodoLift.csproj|solutionrelative:wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E93739C-AE8B-4375-91B7-1461F2661E0F}|RodoLift.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\rodolift\\rodolift\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E93739C-AE8B-4375-91B7-1461F2661E0F}|RodoLift.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,15 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "details.css",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\details.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\details.css",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\details.css",
+              "RelativeToolTip": "wwwroot\\css\\details.css",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAAMUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-18T15:02:19.406Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAA4AAAAAAAAAAAAiwCEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-18T10:28:46.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T10:28:46.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",

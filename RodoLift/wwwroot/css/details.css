@@ -11,7 +11,7 @@
 }
 
 .p-1 {
-    color: #84db00;
+    color: #84db00; 
     font-size: 15px;
 }
 
@@ -159,6 +159,7 @@
         transform: translate3d(0, 0, 0);
     }
 }
+
 @media screen and (max-width:576px){
     main{
         height:1300px;
@@ -181,11 +182,11 @@
         top: -100px;
     }
     .setores{
-        top: 150px;
+        top: 250px;
         left:0px;
     }
     .movin-text-area{
-        top: 160px;
+        top: 225px;
     }
 }
 @media screen and (min-width: 576px){
@@ -204,12 +205,15 @@
     }
 
     .setores {
-        top: 160px;
+        top: 250px;
         left: 0px;
     }
 
     .movin-text-area {
-        top: 160px;
+        top: 220px; 
+    }
+    footer{
+        margin-top:100px
     }
 }
 @media screen and (min-width:768px) {
