@@ -1,120 +1,4 @@
-﻿.mask-area {
-    width: 1440px;
-    height: 660px;
-    background-color: black;
-    margin-bottom: 15px;
-}
-
-.mask {
-    position: relative;
-    z-index: 3;
-    width: 1500px;
-    mask-image: url(../img/LOGO-MASCARA.png);
-    mask-size: 85%;
-    mask-repeat: no-repeat;
-    mask-position: 35% 15%;
-}
-
-.white {
-    width: 1600px;
-    position: relative;
-    top: -690px;
-    left: 0%;
-    z-index: 2;
-    height: 420px;
-    background-color: black;
-}
-
-.under-mask {
-    width: 1500px;
-    position: relative;
-    top: -1095px;
-}
-
-.slogan-area{
-    height: 450px;
-    display: flex;
-    justify-content: space-between
-}
-
-.slogan-img {
-    width: 50px;
-    height: 270px;
-    background-color: #84bd00;
-    mask-image: url(../img/i.png);
-    mask-size: 50px;
-    mask-repeat: no-repeat;
-    position: relative;
-    top: 44px;
-    left: 310px;
-}
-
-.slogan-text {
-    position: relative;
-    top: -154px;
-    left: 343px;
-    height: 270px;
-}
-
-.s-p {
-    font-size: smaller;
-    position: relative;
-    left: 40px;
-    margin: 0px;
-}
-
-.s-s-1, .s-s-2, .s-s-3 {
-    font-size: 80px;
-    position: relative;
-    left: 0px;
-}
-
-.s-s-1{
-    top: -20px;
-
-}   
-
-.s-s-2{
-    top: -90px;
-
-}
-
-.s-s-3 {
-    top: -140px;
-
-}
-
-.info-text-area{
-    position: relative;
-    left: 650px;
-    top: -450px;
-}
-
-.i-p-1 {
-    font-size: 28px;
-    width: 410px;
-}
-
-.i-p-2 {
-    width: 380px;
-}
-
-.i-a {
-    border: dimgrey 1px solid;
-    border-radius: 20px;
-    padding: 5px 30px;
-    position: relative;
-    top: 15px;
-    left: 80px;
-    text-decoration: none;
-    color: dimgrey;
-}
-
-.i-a:hover{
-    background-color: dimgrey;
-    color:white;
-}
-
+﻿/*
 .btn-area{
     width: 500px;
     position: relative;
@@ -234,8 +118,8 @@
     mask-size: 600px;
 }
 
-@media screen and (max-width: 576px) {
-    main{
+@media screen and (max-width: 576px) and (max-width: 1490px) {
+    main {
         height: 2000px;
         margin-bottom: -100px;
     }
@@ -272,25 +156,27 @@
     .btn-area {
         top: 0px;
         left: 60px;
-
-    }
-    .btn-area a {
-        font-size: 50px;
-        margin-bottom: 20px;
     }
 
-    .btn-area a:hover + .a-img {
-        display: none;
-    }
+        .btn-area a {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+            .btn-area a:hover + .a-img {
+                display: none;
+            }
 
     .carousel-area img {
         max-width: 400px;
     }
+
     .carousel-area {
         position: relative;
         top: -150px;
         margin-left: -65px;
     }
+
     .btn-prev, .btn-next {
         position: relative;
         top: 5px;
@@ -305,10 +191,11 @@
         left: 325px;
     }
 
-    .justificativa{
-        position:relative;
-        top:-150px;
+    .justificativa {
+        position: relative;
+        top: -150px;
     }
+
     .just-mask {
         display: none;
     }
@@ -329,26 +216,24 @@
         left: 50px;
         top: 25px;
     }
-
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 1490px) {
     main {
         margin-bottom: 100px;
     }
 
-    .mask-area{ 
+    .mask-area {
         height: 250px;
     }
 
     .mask {
         max-width: 45%;
     }
-    
+
     .white {
         width: 100%;
         top: -300px;
         height: 200px;
-
     }
 
     .slogan-img, .slogan-text {
@@ -356,12 +241,12 @@
     }
 
     .info-text-area {
-        text-align:center;
+        text-align: center;
         left: -70px;
         top: 0px;
     }
 
-    i-a{
+    i-a {
         left: -150px;
     }
 
@@ -371,37 +256,37 @@
         left: 100px;
     }
 
-    .btn-area a {
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
+        .btn-area a {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
 
-    .btn-area a:hover + .a-img {
-        display: block;
-    }
+            .btn-area a:hover + .a-img {
+                display: block;
+            }
 
-    .carousel-area{
+    .carousel-area {
         position: relative;
         top: -150px;
         margin-left: -50px;
     }
 
-    .carousel-area img{
-        max-width: 500px;
-    }
-    .carousel-area h5{
-        text-align:start;
-        position: relative;
-        
-    }
+        .carousel-area img {
+            max-width: 500px;
+        }
 
-    .btn-prev , .btn-next{
-        position:relative;
+        .carousel-area h5 {
+            text-align: start;
+            position: relative;
+        }
+
+    .btn-prev, .btn-next {
+        position: relative;
         top: 5px;
         left: 350px;
         background-color: black;
         width: 50px;
-        border-radius:50px;
+        border-radius: 50px;
     }
 
     .btn-next {
@@ -431,12 +316,12 @@
         left: 150px;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1490px) {
     main {
         margin-bottom: 100px;
     }
 
-    .mask-area{
+    .mask-area {
         height: 250px;
     }
 
@@ -444,11 +329,10 @@
         max-width: 992px;
         mask-size: 70%;
         mask-position: 10% 10%
-        
     }
 
     .under-mask {
-        display: inherit;   
+        display: inherit;
         max-width: 992px;
         top: -670px;
     }
@@ -463,10 +347,10 @@
         display: none;
     }
 
-    .slogan-area{
+    .slogan-area {
         display: block;
         position: relative;
-        top:195px;
+        top: 195px;
         left: 340px;
     }
 
@@ -476,50 +360,50 @@
         height: 270px;
     }
 
-    .i-a{
-        left:0px;
+    .i-a {
+        left: 0px;
     }
 
     .btn-area {
         top: 40px;
-        left:200px;
+        left: 200px;
     }
 
-    .btn-area a {
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
+        .btn-area a {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
 
-    .carousel-area{
+    .carousel-area {
         position: relative;
         top: -150px;
         margin-left: -50px;
     }
 
-    .carousel-area img{
-        max-width: 700px;
-    }
+        .carousel-area img {
+            max-width: 700px;
+        }
 
-    .carousel-area h5{
-        color: #84db00;
+        .carousel-area h5 {
+            color: #84db00;
+            position: relative;
+            top: 30px;
+            left: 100px;
+        }
+
+        .carousel-area p {
+            position: relative;
+            top: 30px;
+            left: -250px;
+        }
+
+    .btn-prev, .btn-next {
         position: relative;
-        top: 30px;
-        left: 100px;
-    }
-
-    .carousel-area p {
-        position: relative;
-        top:30px;
-        left: -250px;
-    }
-
-    .btn-prev , .btn-next{
-        position:relative;
         top: 5px;
         left: 550px;
         background-color: black;
         width: 50px;
-        border-radius:50px;
+        border-radius: 50px;
     }
 
     .btn-next {
@@ -536,7 +420,6 @@
     .just-mask-area {
         display: inherit;
         left: 390px;
-
     }
 
     .justificativa h2 {
@@ -551,7 +434,7 @@
         left: 100px;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1490px) {
     main {
         margin-bottom: 100px;
     }
@@ -562,7 +445,7 @@
 
     .mask {
         max-width: 1200px;
-        mask-size:80%;
+        mask-size: 80%;
         mask-position: 0% 10%
     }
 
@@ -583,13 +466,12 @@
         height: 450px;
         left: 0px;
     }
-    
+
     .slogan-img, .slogan-text {
         display: inherit;
     }
 
     .slogan-img {
-
         top: 44px;
         left: 150px;
     }
@@ -601,9 +483,9 @@
         height: 270px;
     }
 
-    .img-slogan{
+    .img-slogan {
         width: 250px;
-        height:350px;
+        height: 350px;
     }
 
     .info-text-area {
@@ -621,10 +503,10 @@
         top: 100px;
     }
 
-    .btn-area a {
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
+        .btn-area a {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
 
     .carousel-area {
         position: relative;
@@ -632,22 +514,22 @@
         margin-left: -60px;
     }
 
-    .carousel-area img {
-        max-width: 900px;
-    }
+        .carousel-area img {
+            max-width: 900px;
+        }
 
-    .carousel-area h5 {
-        color: #84db00;
-        position: relative;
-        top: 30px;
-        left: 100px;
-    }
+        .carousel-area h5 {
+            color: #84db00;
+            position: relative;
+            top: 30px;
+            left: 100px;
+        }
 
-    .carousel-area p {
-        position: relative;
-        top: 30px;
-        left: -250px;
-    }
+        .carousel-area p {
+            position: relative;
+            top: 30px;
+            left: -250px;
+        }
 
     .btn-prev, .btn-next {
         position: relative;
@@ -692,7 +574,7 @@
         left: 100px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1490px) {
     main {
         margin-bottom: 100px;
     }
@@ -722,7 +604,7 @@
         margin-top: 150px;
     }
 
-    .img-slogan{
+    .img-slogan {
         position: relative;
         left: 150px;
         top: 50px;
@@ -739,18 +621,17 @@
     }
 
     .btn-area {
-        height:600px;
+        height: 600px;
         margin-top: 200px;
-
     }
 
     .carousel-area {
         margin-left: -10px;
     }
 
-    .carousel-area img {
-        max-width: 1000px;
-    }
+        .carousel-area img {
+            max-width: 1000px;
+        }
 
     .justificativa {
         height: 450px;
@@ -786,7 +667,7 @@
         left: 150px;
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) and (max-width: 1490px) {
     main{
         margin-bottom: 100px;
     }
@@ -857,4 +738,198 @@
         text-align: start;
         left: 250px;
     }
+}
+
+*/
+
+.mask-area {
+    width: 1535px;
+    height: 750px;
+    /* background-color: black; */
+    /* margin-bottom: 15px; */
+    border: 1px dashed black;
+}
+
+.mask {
+    position: relative;
+    z-index: 3;
+    width: 1536px;
+    height: 750px;
+    mask-image: url(../img/LOGO-MASCARA.png);
+    mask-size: 94.5%;
+    mask-repeat: no-repeat;
+    mask-position: 40% 1%;
+    background-color: black;
+}
+
+.white {
+    width: 1600px;
+    position: absolute;
+    top: 76px;
+    left: 0%;
+    z-index: 2;
+    height: 420px;
+    background-color: white;
+}
+
+.under-mask {
+    width: 1536px;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+    height: 750px;
+}
+
+.slogan-area {
+    height: 450px;
+    display: flex;
+    justify-content: space-between
+}
+
+.img-slogan {
+    position: absolute;
+    left: 345px;
+}
+
+.slogan-img {
+    width: 55px;
+    height: 285px;
+    background-color: #93c71c;
+    mask-image: url(../img/i.png);
+    mask-size: 52.5px;
+    mask-repeat: no-repeat;
+    position: relative;
+    top: 63px;
+}
+
+.slogan-text {
+    position: relative;
+    top: -154px;
+    left: 32px;
+    height: 270px;
+}
+
+.s-p {
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+    margin: 0;
+    font-style: italic;
+    letter-spacing: 1px;
+    position: relative;
+    top: 20px;
+}
+
+.s-s {
+    font-size: 97px;
+    position: relative;
+    color: black;
+    line-height: .85;
+    top: 17px;
+}
+
+.s-s span {
+    position: relative;
+    top: -15px;
+}
+
+.info-text-area {
+    position: absolute;
+    left: 747px;
+}
+
+.i-p-1 {
+    position: relative;
+    font-size: 26px;
+    width: 520px;
+    top: 145px;
+    line-height: 1.2;
+}
+
+.i-p-2 {
+    width: 380px;
+    position: relative;
+    top: 160px;
+    font-size: 14px;
+}
+
+.i-a {
+    border: dimgrey 1px solid;
+    border-radius: 30px;
+    padding: 13px 47px;
+    position: relative;
+    top: 190px;
+    left: 0px;
+    text-decoration: none;
+    color: dimgrey;
+    color: black;
+}
+
+    .i-a:hover {
+        background-color: dimgrey;
+        color: white;
+    }
+
+.btn-area {
+    width: 500px;
+    position: relative;
+    left: 450px
+}
+
+    .btn-area a {
+        position: relative;
+        z-index: 2;
+        font-size: 65px;
+        margin: 0px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn-area strong {
+        font-size: 25px;
+        position: relative;
+        top: -50px;
+        left: 100px;
+    }
+
+    .btn-area span {
+        position: relative;
+        left: 50px
+    }
+
+.a-img {
+    max-width: 170px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    top: -290px;
+    left: -120px;
+    display: none;
+}
+
+.a-2 {
+    position: relative;
+    top: -90px;
+}
+
+.a-3, .a-4 {
+    position: relative;
+    top: -170px;
+}
+
+.a-4 {
+    left: -50px
+}
+
+.btn-area a:hover {
+    color: #84bd00;
+}
+
+    .btn-area a:hover + .a-img {
+        display: block;
+        margin-bottom: -150px;
+    }
+
+.a-2:hover + .a-3, .a-4 {
+    top: -180px;
 }

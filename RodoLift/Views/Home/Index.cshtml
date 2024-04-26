@@ -5,39 +5,7 @@
     <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 </head>
 
-<div class="mask-area">
-    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="logo-mask" class="mask">
-    <div class="white"></div>
-    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="image of a truck" class="under-mask">
-
-</div>
-<div class="slogan-area">
-    <div class="img-slogan">
-        <div class="slogan-img"></div>
-        <div class="slogan-text" style="width: 150px;">
-            <p class="s-p">RODOLIFT</p>
-            <strong class="s-s-1">we</strong>
-            <strong class="s-s-2">move</strong>
-            <strong class="s-s-3">it </strong>
-        </div>
-    </div>
-    <div class="info-text-area">
-        <p class="i-p-1">
-            A garantia de soluções e
-            serviços de <strong>
-                transporte de cargas
-                com gruas móveis e carga geral
-            </strong>
-            para todos os setores.
-        </p>
-        <p class="i-p-2">
-            Destacamos profissionais certificados e formação
-            específica para a movimentação técnica de cargas
-            com total segurança.
-        </p>
-        <a asp-action="AboutUs" asp-controller="Home" class="i-a">Sobre</a>
-    </div>
-</div>
+<!--
 <div class="d-grid gap-4 btn-area">
     <a class="a-1">CAMIÃO-GRUA <br /> <strong>8T COM RAMPA</strong></a>
     <a asp-action="Details" asp-controller="Home" class="a-2">CAMIÃO-GRUA <br /> <span><strong>5T</strong></span></a>
@@ -87,3 +55,45 @@
     <p class="j-p-1">Melhor orçamento para a sua necessidade</p>
     <p class="j-p-1">Assistência técnica 24/7</p>
 </div>
+-->
+
+<div class="mask-area">
+    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="logo-mask" class="mask">
+    <div class="white"></div>
+    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="image of a truck" class="under-mask">
+</div>
+
+<div class="slogan-area">
+    <div class="img-slogan">
+        <div class="slogan-img"></div>
+        <div class="slogan-text" style="width: 150px;">
+        <p class="s-p quicksand">RODOLIFT</p>
+            <p class="s-s kanit-medium-italic">we <span>move it!</span></p>
+        </div>
+    </div>
+    <div class="info-text-area poppins-light">
+        <p class="i-p-1">
+            A garantia de soluções e <br />
+            serviços de <strong class="poppins-bold">
+                transporte de cargas <br />
+                com gruas móveis e carga geral <br />
+            </strong>
+            para todos os setores.
+        </p>
+        <p class="i-p-2">
+            Destacamos profissionais certificados e formação
+            específica para a movimentação técnica de cargas
+            com total segurança.
+        </p>
+        <a asp-action="AboutUs" asp-controller="Home" class="i-a poppins-semibold-italic">SOBRE</a>
+    </div>
+</div>
+
+<div class="d-grid gap-4 btn-area">
+    <a class="a-1">CAMIÃO-GRUA <br /> <strong>8T COM RAMPA</strong></a>
+    <a asp-action="Details" asp-controller="Home" class="a-2">CAMIÃO-GRUA <br /> <span><strong>5T</strong></span></a>
+    <img src="~/img/7.5t-Dropside-Crane.png" alt="Alternate Text" class="a-img" />
+    <a class="a-3">CARGA GERAL</a>
+    <a class="a-4">PORTA-MÁQUINAS</a>
+</div>
+   
