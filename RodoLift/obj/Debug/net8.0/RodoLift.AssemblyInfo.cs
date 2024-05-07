@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RodoLift")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9197c06605ce305c73eee7f8749024685716a31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bfae8a398ae30b33b1f45d2bf1ad5694f81b1b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RodoLift")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RodoLift")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,95 +5,165 @@
     <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 </head>
 
-<!--
-<div class="d-grid gap-4 btn-area">
-    <a class="a-1">CAMIÃO-GRUA <br /> <strong>8T COM RAMPA</strong></a>
-    <a asp-action="Details" asp-controller="Home" class="a-2">CAMIÃO-GRUA <br /> <span><strong>5T</strong></span></a>
-    <img src="~/img/7.5t-Dropside-Crane.png" alt="Alternate Text" class="a-img"/>
-    <a class="a-3">CARGA GERAL</a>
-    <a class="a-4">PORTA-MÁQUINAS</a>
-</div>
-<div class="carousel-area" style="margin-top: 50px;">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="width: 1300px; margin-left: 95px;">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/camião-grua1.jpeg" class="d-block w-100" alt="..." style="max-height: 650px; width: auto;">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>SERVIÇOS</h5>
-                    <p>Movimentos industriais de cargas</p>
+<main>    
+    <div class="mask-area">
+        <img src="img/palfinger_tec_range(bef)-test.jpg" alt="logo-mask" class="mask">
+        <div class="white"></div>
+        <img src="img/palfinger_tec_range(bef)-test.jpg" alt="image of a truck" class="under-mask">
+    </div>
+    
+    <div class="slogan-area">
+        <div class="img-slogan">
+            <div class="slogan-img"></div>
+            <div class="slogan-text" style="width: 150px;">
+            <p class="s-p quicksand">RODOLIFT</p>
+                <p class="s-s kanit-medium-italic">we <span>move it!</span></p>
+            </div>
+        </div>
+        <div class="info-text-area poppins-light">
+            <p class="i-p-1">
+                A garantia de soluções e <br />
+                serviços de <strong class="poppins-bold">
+                    transporte de cargas <br />
+                    com gruas móveis e carga geral <br />
+                </strong>
+                para todos os setores.
+            </p>
+            <p class="i-p-2">
+                Destacamos profissionais certificados e formação
+                específica para a movimentação técnica de cargas
+                com total segurança.
+            </p>
+            <a asp-action="AboutUs" asp-controller="Home" class="i-a poppins-semibold-italic">SOBRE</a>
+        </div>
+    </div>
+    
+    <div class="btn-area">
+        <a class="a-1 kanit-bold-italic">CAMIÃO-GRUA <br /> <strong>8T COM RAMPA</strong></a>
+        <p class="p1 hidde quicksand">EQUIPAMENTO</p>
+        <a asp-action="Details" asp-controller="Home" class="a-2 kanit-bold-italic">CAMIÃO-GRUA <br /><strong>5T</strong></a>
+        <img src="~/img/7.5t-Dropside-Crane.png" alt="Alternate Text" class="a-img hidde" />
+        <a class="a-3 kanit-bold-italic">CARGA GERAL</a>
+        <a class="a-4 kanit-bold-italic">PORTA-MÁQUINAS</a>
+    </div>
+    
+    <div class="caroucel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="img/logística.png" alt="Imagem 1">
+                <div class="caption">
+                    <h5 class="quicksand">SERVIÇOS</h5>
+                    <p class="kanit-semibold-italic">movimentação <br /> industrial de cargas</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/transporte_carga_03.jpg" class="d-block w-100" alt="..." style="max-height: 660px; width: auto;">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>SERVIÇOS</h5>
-                    <p>Transporte especial de maquinas</p>
+            <div class="carousel-slide">
+                <img src="img/transporte-especial-ananias.jpg" alt="Imagem 2">
+                <div class="caption">
+                    <h5 class="quicksand">SERVIÇOS</h5>
+                    <p class="kanit-bold-italic">Transporte especial de maquinas</p>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev btn-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next btn-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
-<div class="justificativa">
-    <div class="just-mask-area">
-        <img src="img/carro grua5.jpg" class="just-mask" alt="">
-    </div>
-    <h2><em>porquê</em></h2>
-    <p class="j-p"><em><strong>rodo</strong><strong style="color: #84db00">lift</strong></em></p>
-    <p class="j-p-1">Atendimento personalizado</p>
-    <p class="j-p-1">Equipas altamente qualificadas</p>
-    <p class="j-p-1">Máximo segurança</p>
-    <p class="j-p-1">Apoio técnico e consultoria</p>
-    <p class="j-p-1">Melhor orçamento para a sua necessidade</p>
-    <p class="j-p-1">Assistência técnica 24/7</p>
-</div>
--->
-
-<div class="mask-area">
-    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="logo-mask" class="mask">
-    <div class="white"></div>
-    <img src="img/palfinger_tec_range(bef)-test.jpg" alt="image of a truck" class="under-mask">
-</div>
-
-<div class="slogan-area">
-    <div class="img-slogan">
-        <div class="slogan-img"></div>
-        <div class="slogan-text" style="width: 150px;">
-        <p class="s-p quicksand">RODOLIFT</p>
-            <p class="s-s kanit-medium-italic">we <span>move it!</span></p>
+        <div class="next-preview">
+            <img src="img/transporte_carga_03.jpg" alt="Próxima imagem">
         </div>
+        <button onclick="showPrevious()">&gt;</button>
+        <button onclick="showNext()">&lt;</button>
     </div>
-    <div class="info-text-area poppins-light">
-        <p class="i-p-1">
-            A garantia de soluções e <br />
-            serviços de <strong class="poppins-bold">
-                transporte de cargas <br />
-                com gruas móveis e carga geral <br />
-            </strong>
-            para todos os setores.
-        </p>
-        <p class="i-p-2">
-            Destacamos profissionais certificados e formação
-            específica para a movimentação técnica de cargas
-            com total segurança.
-        </p>
-        <a asp-action="AboutUs" asp-controller="Home" class="i-a poppins-semibold-italic">SOBRE</a>
+    <div class="just-area">
+        <div class="text-area-just">
+            <p class="j-p kanit-medium-italic ">
+				<span style="position: relative; left: -45px;">porquê</span> <br />
+				<span class="kanit-bold-italic">rodo <span style="color: #93c71c; position: relative; left: -20px;">lift</span> </span>
+            </p>
+            <p class="j-p-1 poppins-regular">
+    			Atendimento personalizado <br />
+    			Equipas altamente qualificadas <br />
+    			Máximo segurança <br />
+    			Apoio técnico e consultoria <br />
+    			Melhor orçamento para a sua necessidade <br />
+    			Assistência técnica 24/7
+    		</p>
+        </div>
+        <a class="kanit-semibold-italic">PEDIR ORÇAMENTO</a>
+        <img src="~/img/just.png" class="just-img"/>
     </div>
-</div>
+    
+</main>
 
-<div class="d-grid gap-4 btn-area">
-    <a class="a-1">CAMIÃO-GRUA <br /> <strong>8T COM RAMPA</strong></a>
-    <a asp-action="Details" asp-controller="Home" class="a-2">CAMIÃO-GRUA <br /> <span><strong>5T</strong></span></a>
-    <img src="~/img/7.5t-Dropside-Crane.png" alt="Alternate Text" class="a-img" />
-    <a class="a-3">CARGA GERAL</a>
-    <a class="a-4">PORTA-MÁQUINAS</a>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    let slideIndex = 0;
+    let slides = document.getElementsByClassName("carousel-slide");
+    let nextPreviewImg = document.querySelector(".next-preview img");
+    let nextPreviewCaption = document.querySelector(".next-preview .caption");
+
+    function showNext() {
+        slideIndex++;
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
+        }
+        showSlide(slideIndex);
+    }
+
+    function showPrevious() {
+        slideIndex--;
+        if (slideIndex < 0) {
+            slideIndex = slides.length - 1;
+        }
+        showSlide(slideIndex);
+    }
+
+    function showSlide(index) {
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[index].style.display = "block";
+
+        let nextIndex = (index + 1) % slides.length;
+        nextPreviewImg.src = slides[nextIndex].querySelector("img").src;
+        nextPreviewCaption.textContent = slides[nextIndex].querySelector(".caption").textContent;
+    }
+
+    showSlide(slideIndex);
+
+</script>
    

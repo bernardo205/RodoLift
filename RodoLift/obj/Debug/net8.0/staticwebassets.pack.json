@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\img\\garbage-truck-collecting-garbage-cans.jpg"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\i.jpg",
+      "PackagePath": "staticwebassets\\img\\i.jpg"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\i.png",
       "PackagePath": "staticwebassets\\img\\i.png"
     },
@@ -79,6 +83,14 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\icon\\linkedin_icon.png",
       "PackagePath": "staticwebassets\\img\\icon\\linkedin_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\just.png",
+      "PackagePath": "staticwebassets\\img\\just.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\logística.png",
+      "PackagePath": "staticwebassets\\img\\logística.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\logo\\Bg\\AF - logotipo RODOLIFT _ cores.jpg",
@@ -113,12 +125,12 @@
       "PackagePath": "staticwebassets\\img\\rodo_outline.png"
     },
     {
-      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\shape-mask.png",
-      "PackagePath": "staticwebassets\\img\\shape-mask.png"
-    },
-    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\tramsp_outline.png",
       "PackagePath": "staticwebassets\\img\\tramsp_outline.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\transporte-especial-ananias.jpg",
+      "PackagePath": "staticwebassets\\img\\transporte-especial-ananias.jpg"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\RodoLift\\RodoLift\\wwwroot\\img\\transporte_carga_03.jpg",

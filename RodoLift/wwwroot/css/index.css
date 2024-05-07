@@ -1,771 +1,25 @@
-﻿/*
-.btn-area{
-    width: 500px;
-    position: relative;
-    left: 450px
-}
-
-.btn-area a {
-    position: relative;
-    z-index: 2;
-    font-size: 65px;
-    margin: 0px;
-    text-decoration: none;
-    color: black;
-}
-
-.btn-area strong{
-    font-size: 25px;
-    position: relative;
-    top: -50px;
-    left: 100px;
-}
-
-.btn-area span {
-    position: relative;
-    left: 50px
-}
-
-.a-img{
-    max-width: 170px;
-    height: auto;
-    position:relative;
-    z-index: 1;
-    top: -290px;
-    left: -120px;
-    display: none;
-}
-
-.a-2{
-    position: relative;
-    top: -90px;
-}
-
-.a-3, .a-4{
-    position: relative;
-    top: -170px;
-}
-
-.a-4{
-
-    left: -50px
-}
-
-.btn-area a:hover {
-    color: #84bd00;
-
-}
-
-.btn-area a:hover + .a-img {
-    display: block;
-    margin-bottom: -150px;
-}
-
-.a-2:hover + .a-3, .a-4 {
-    top: -180px;
-}
-
-.carousel-area h5{
-    text-align: center;
-}
-
-.carousel-area p {
-    font-size: 30px;
-    text-align: center;
-}
-
-.justificativa {
-    height: 450px
-
-}
-
-.justificativa h2 {
-    font-size: 60px;
-    position: relative;
-    left: 350px;
-    top: 50px;
-}
-
-.j-p {
-    color: #84bd00;
-    font-size: 60px;
-    position: relative;
-    left: 390px;
-    top: 15px;
-}
-
-.j-p strong {
-    color: black;
-}
-
-.j-p-1 {
-    position: relative;
-    left: 350px;
-    top: 25px;
-}
-
-.just-mask-area {
-    position: absolute;
-    right: 250px;
-}
-
-.just-mask {
-    width: 400px;
-    height: 600px;
-    mask-image: url(../img/shape-mask.png);
-    mask-position: 70% 50%;
-    mask-repeat: no-repeat;
-    mask-size: 600px;
-}
-
-@media screen and (max-width: 576px) and (max-width: 1490px) {
-    main {
-        height: 2000px;
-        margin-bottom: -100px;
-    }
-
-    .mask-area {
-        height: 150px;
-    }
-
-    .mask {
-        max-width: 576px;
-        mask-size: 70%;
-        mask-position: 10% 10%
-    }
-
-    .white {
-        height: 150px;
-        top: -290px;
-    }
-
-    .under-mask {
-        display: none
-    }
-
-    .slogan-img, .slogan-text {
-        display: none;
-    }
-
-    .info-text-area {
-        text-align: center;
-        left: -35px;
-        top: 30px;
-    }
-
-    .btn-area {
-        top: 0px;
-        left: 60px;
-    }
-
-        .btn-area a {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-
-            .btn-area a:hover + .a-img {
-                display: none;
-            }
-
-    .carousel-area img {
-        max-width: 400px;
-    }
-
-    .carousel-area {
-        position: relative;
-        top: -150px;
-        margin-left: -65px;
-    }
-
-    .btn-prev, .btn-next {
-        position: relative;
-        top: 5px;
-        left: 270px;
-        background-color: black;
-        width: 50px;
-        border-radius: 50px;
-    }
-
-    .btn-next {
-        top: -23px;
-        left: 325px;
-    }
-
-    .justificativa {
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask {
-        display: none;
-    }
-
-    .justificativa h2 {
-        position: relative;
-        left: 50px;
-        top: 50px;
-    }
-
-    .j-p {
-        position: relative;
-        left: 90px;
-        top: 15px;
-    }
-
-    .j-p-1 {
-        left: 50px;
-        top: 25px;
-    }
-}
-@media screen and (min-width: 576px) and (max-width: 1490px) {
-    main {
-        margin-bottom: 100px;
-    }
-
-    .mask-area {
-        height: 250px;
-    }
-
-    .mask {
-        max-width: 45%;
-    }
-
-    .white {
-        width: 100%;
-        top: -300px;
-        height: 200px;
-    }
-
-    .slogan-img, .slogan-text {
-        display: none;
-    }
-
-    .info-text-area {
-        text-align: center;
-        left: -70px;
-        top: 0px;
-    }
-
-    i-a {
-        left: -150px;
-    }
-
-
-    .btn-area {
-        top: -50px;
-        left: 100px;
-    }
-
-        .btn-area a {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-
-            .btn-area a:hover + .a-img {
-                display: block;
-            }
-
-    .carousel-area {
-        position: relative;
-        top: -150px;
-        margin-left: -50px;
-    }
-
-        .carousel-area img {
-            max-width: 500px;
-        }
-
-        .carousel-area h5 {
-            text-align: start;
-            position: relative;
-        }
-
-    .btn-prev, .btn-next {
-        position: relative;
-        top: 5px;
-        left: 350px;
-        background-color: black;
-        width: 50px;
-        border-radius: 50px;
-    }
-
-    .btn-next {
-        top: -23px;
-        left: 405px;
-    }
-
-    .justificativa {
-        height: 450px;
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask-area {
-        display: none;
-    }
-
-    .justificativa h2 {
-        left: 150px;
-    }
-
-    .j-p {
-        left: 190px;
-    }
-
-    .j-p-1 {
-        left: 150px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1490px) {
-    main {
-        margin-bottom: 100px;
-    }
-
-    .mask-area {
-        height: 250px;
-    }
-
-    .mask {
-        max-width: 992px;
-        mask-size: 70%;
-        mask-position: 10% 10%
-    }
-
-    .under-mask {
-        display: inherit;
-        max-width: 992px;
-        top: -670px;
-    }
-
-    .white {
-        width: 100%;
-        top: -457px;
-        height: 220px;
-    }
-
-    .slogan-img, .slogan-text {
-        display: none;
-    }
-
-    .slogan-area {
-        display: block;
-        position: relative;
-        top: 195px;
-        left: 340px;
-    }
-
-    .info-text-area {
-        width: 415px;
-        left: -140px;
-        height: 270px;
-    }
-
-    .i-a {
-        left: 0px;
-    }
-
-    .btn-area {
-        top: 40px;
-        left: 200px;
-    }
-
-        .btn-area a {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-
-    .carousel-area {
-        position: relative;
-        top: -150px;
-        margin-left: -50px;
-    }
-
-        .carousel-area img {
-            max-width: 700px;
-        }
-
-        .carousel-area h5 {
-            color: #84db00;
-            position: relative;
-            top: 30px;
-            left: 100px;
-        }
-
-        .carousel-area p {
-            position: relative;
-            top: 30px;
-            left: -250px;
-        }
-
-    .btn-prev, .btn-next {
-        position: relative;
-        top: 5px;
-        left: 550px;
-        background-color: black;
-        width: 50px;
-        border-radius: 50px;
-    }
-
-    .btn-next {
-        top: -23px;
-        left: 605px;
-    }
-
-    .justificativa {
-        height: 450px;
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask-area {
-        display: inherit;
-        left: 390px;
-    }
-
-    .justificativa h2 {
-        left: 100px;
-    }
-
-    .j-p {
-        left: 150px;
-    }
-
-    .j-p-1 {
-        left: 100px;
-    }
-}
-@media screen and (min-width: 992px) and (max-width: 1490px) {
-    main {
-        margin-bottom: 100px;
-    }
-
-    .mask-area {
-        height: 250px;
-    }
-
-    .mask {
-        max-width: 1200px;
-        mask-size: 80%;
-        mask-position: 0% 10%
-    }
-
-    .under-mask {
-        max-width: 1200px;
-        top: -840px;
-    }
-
-    .white {
-        width: 100%;
-        top: -552px;
-        height: 290px;
-    }
-
-    .slogan-area {
-        display: flex;
-        margin-top: 100px;
-        height: 450px;
-        left: 0px;
-    }
-
-    .slogan-img, .slogan-text {
-        display: inherit;
-    }
-
-    .slogan-img {
-        top: 44px;
-        left: 150px;
-    }
-
-    .slogan-text {
-        position: relative;
-        top: -154px;
-        left: 175px;
-        height: 270px;
-    }
-
-    .img-slogan {
-        width: 250px;
-        height: 350px;
-    }
-
-    .info-text-area {
-        text-align: center;
-        left: -70px;
-        top: 70px;
-    }
-
-    .i-a {
-        left: -165px;
-    }
-
-    .btn-area {
-        left: 290px;
-        top: 100px;
-    }
-
-        .btn-area a {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-
-    .carousel-area {
-        position: relative;
-        top: -150px;
-        margin-left: -60px;
-    }
-
-        .carousel-area img {
-            max-width: 900px;
-        }
-
-        .carousel-area h5 {
-            color: #84db00;
-            position: relative;
-            top: 30px;
-            left: 100px;
-        }
-
-        .carousel-area p {
-            position: relative;
-            top: 30px;
-            left: -250px;
-        }
-
-    .btn-prev, .btn-next {
-        position: relative;
-        top: 5px;
-        left: 750px;
-        background-color: black;
-        width: 50px;
-        border-radius: 50px;
-    }
-
-    .btn-next {
-        top: -23px;
-        left: 805px;
-    }
-
-    .justificativa {
-        height: 450px;
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask {
-        width: 600px;
-        height: 800px;
-        mask-position: 30% 35%;
-    }
-
-    .just-mask-area {
-        display: inherit;
-        left: 390px;
-    }
-
-    .justificativa h2 {
-        left: 100px;
-    }
-
-    .j-p {
-        left: 150px;
-    }
-
-    .j-p-1 {
-        left: 100px;
-    }
-}
-@media screen and (min-width: 1200px) and (max-width: 1490px) {
-    main {
-        margin-bottom: 100px;
-    }
-
-    .mask-area {
-        height: 250px;
-    }
-
-    .mask {
-        max-width: 1400px;
-        mask-position: 10% 10%;
-        mask-size: 80%;
-    }
-
-    .under-mask {
-        max-width: 1400px;
-        top: -980px;
-    }
-
-    .white {
-        width: 100%;
-        top: -644px;
-        height: 340px;
-    }
-
-    .slogan-area {
-        margin-top: 150px;
-    }
-
-    .img-slogan {
-        position: relative;
-        left: 150px;
-        top: 50px;
-    }
-
-    .info-text-area {
-        text-align: center;
-        left: -150px;
-        top: 100px;
-    }
-
-    .i-a {
-        left: -35px;
-    }
-
-    .btn-area {
-        height: 600px;
-        margin-top: 200px;
-    }
-
-    .carousel-area {
-        margin-left: -10px;
-    }
-
-        .carousel-area img {
-            max-width: 1000px;
-        }
-
-    .justificativa {
-        height: 450px;
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask {
-        width: 500px;
-        height: auto;
-        mask-size: 730px;
-        mask-position: 50% 35%;
-        position: relative;
-        top: -150px;
-        left: 150px;
-    }
-
-    .just-mask-area {
-        display: inherit;
-        left: 390px;
-    }
-
-    .justificativa h2 {
-        left: 150px;
-    }
-
-    .j-p {
-        left: 200px;
-    }
-
-    .j-p-1 {
-        text-align: start;
-        left: 150px;
-    }
-}
-@media screen and (min-width: 1400px) and (max-width: 1490px) {
-    main{
-        margin-bottom: 100px;
-    }
-    
-    .mask {
-        max-width: 1500px;
-        mask-position: 35% 20%
-    }
-
-    .under-mask {
-        max-width: 1500px;
-        top: -1110px;
-    }
-
-    .white {
-        width: 1500px;
-        top: -699px;
-        height: 425px;
-    }
-
-    .img-slogan {
-        top: 100px;
-    }
-
-    .info-text-area {
-        left: -200px;
-        top: 150px;
-    }
-
-    .btn-area {
-        top: 70px;
-        left: 450px;
-    }
-
-    .carousel-area img {
-        max-width: 1200px;
-    }
-
-    .btn-prev, .btn-next {
-        left: 1000px;
-    }
-
-    .btn-next {
-        top: -23px;
-        left: 1055px;
-    }
-
-    .justificativa {
-        height: 450px;
-        position: relative;
-        top: -150px;
-    }
-
-    .just-mask {
-        top: -150px;
-        left: 350px;
-    }
-
-    .justificativa h2 {
-        left: 250px;
-    }
-
-    .j-p {
-        left: 300px;
-    }
-
-    .j-p-1 {
-        text-align: start;
-        left: 250px;
-    }
-}
-
-*/
-
-.mask-area {
-    width: 1535px;
+﻿.mask-area {
     height: 750px;
-    /* background-color: black; */
-    /* margin-bottom: 15px; */
     border: 1px dashed black;
 }
 
 .mask {
     position: relative;
     z-index: 3;
-    width: 1536px;
+    width: 101%;
     height: 750px;
     mask-image: url(../img/LOGO-MASCARA.png);
     mask-size: 94.5%;
     mask-repeat: no-repeat;
-    mask-position: 40% 1%;
+    mask-position: 40% 22%;
     background-color: black;
+    object-fit: cover;
 }
 
 .white {
-    width: 1600px;
+    width: 101%;
     position: absolute;
-    top: 76px;
+    top: 70px;
     left: 0%;
     z-index: 2;
     height: 420px;
@@ -773,11 +27,12 @@
 }
 
 .under-mask {
-    width: 1536px;
+    width: 100%;
     position: absolute;
-    top: 80px;
+    top: 0;
     z-index: 1;
     height: 750px;
+    object-fit: cover;
 }
 
 .slogan-area {
@@ -871,40 +126,48 @@
     }
 
 .btn-area {
-    width: 500px;
+    width: 100%;
+    padding: 140px 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
     position: relative;
-    left: 450px
+}
+
+.p1 {
+    position: absolute;
+    top: 380px;
+    right: 470px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 10px;
 }
 
     .btn-area a {
-        position: relative;
         z-index: 2;
-        font-size: 65px;
+        font-size: 90px;
         margin: 0px;
         text-decoration: none;
         color: black;
+        font-weight: 800;
+        font-style: italic;
+        text-align: center;
     }
 
     .btn-area strong {
         font-size: 25px;
         position: relative;
-        top: -50px;
-        left: 100px;
-    }
-
-    .btn-area span {
-        position: relative;
-        left: 50px
+        top: -90px;
+        left: 10px;
     }
 
 .a-img {
-    max-width: 170px;
+    max-width: 350px;
     height: auto;
-    position: relative;
+    position: absolute;
     z-index: 1;
-    top: -290px;
-    left: -120px;
-    display: none;
+    top: 355px;
+    left: 220px;
 }
 
 .a-2 {
@@ -912,24 +175,311 @@
     top: -90px;
 }
 
-.a-3, .a-4 {
+.a-3 {
+    position: relative;
+    top: -190px;
+}
+
+.a-4 {
     position: relative;
     top: -170px;
 }
 
-.a-4 {
-    left: -50px
+.hidde {
+    display: none;
 }
 
 .btn-area a:hover {
     color: #84bd00;
 }
 
-    .btn-area a:hover + .a-img {
+    .a-2:hover + .hidde {
         display: block;
-        margin-bottom: -150px;
     }
 
-.a-2:hover + .a-3, .a-4 {
-    top: -180px;
+.carousel-container {
+    width: 76.5%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+    .carousel-slide img {
+        width: 100%;
+        height: 663px;
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+
+.caption {
+    position: absolute;
+    bottom: 60px;
+    left: 45.5%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: start;
+}
+
+    .caption h5 {
+        color: #84bd00;
+        font-size: 10px;
+        letter-spacing: 4px;
+        font-style: italic;
+        position: relative;
+        left: 50px;
+    }
+
+.caption p {
+    font-size: 40px;
+    line-height: 1;
+   
+}
+
+.next-preview {
+    width: 23.5%;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: -663px;
+}
+
+    .next-preview img {
+        max-width: 100%;
+        height: 663px;
+        object-fit: cover;
+        filter: brightness(0.3);
+    }
+
+    .next-preview .caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 5px 10px;
+    }
+
+.caroucel button {
+    float: right;
+    position: relative;
+    left: 185px;
+    top: -115px;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 22px;
+}
+
+
+.just-area {
+    height: 700px;
+    position: relative;
+}
+
+.text-area-just {
+    position: relative;
+    left: 410px;
+    top: 145px;
+}
+
+.j-p {
+    color: black;
+    font-size: 97px;
+    line-height: .8;
+}
+
+.j-p-1 {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 2;
+    color: grey;
+}
+
+.just-img {
+    height: 580px;
+    position: absolute;
+    bottom: 30px;
+    right: 149px;
+}
+
+.just-area a {
+    text-decoration: none;
+    color: black;
+    background-color: #93c71c;
+    padding: 12px 42px;
+    border-radius: 40px;
+    position: relative;
+    top: 205px;
+    left: 350px;
+}
+
+@media (max-width: 1480px) {
+    .text-area-just {
+        left: 350px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .text-area-just {
+        left: 150px;
+    }
+
+    .just-area a {
+        left: 150px;
+    }
+
+    .a-2:hover + .hidde {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img-slogan {
+        left: 250px;
+    }
+
+    .info-text-area {
+        left: 600px;
+    }
+
+    .btn-area {
+        padding: 60px 55px;
+    }
+
+    .just-img {
+        right: 100px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .text-area-just {
+        left: 100px;
+    }
+
+    .just-img {
+        right: 50px;
+    }
+
+    
+}
+
+@media (max-width: 1120px) {
+    
+}
+
+@media (max-width: 1100px) {
+    
+}
+
+@media (max-width: 1060px) {
+    .just-img {
+        display: none;
+    }
+
+    .just-area {
+        padding: 0 30%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .img-slogan {
+        left: 170px;
+    }
+
+    .info-text-area {
+        left: 550px;
+    }
+
+    .text-area-just {
+        left: 0;
+    }
+
+    .just-area a {
+        left: 0;
+    }
+
+    .btn-area strong {
+        top: -75px;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 960px) {
+    .img-slogan {
+        left: 120px;
+    }
+
+    .info-text-area {
+        left: 460px;
+    }
+}
+
+@media (max-width: 910px) {
+    .just-area {
+        padding: 0px 24%;
+    }
+
+    .btn-area {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 880px) {
+    .info-text-area {
+        left: 0px;
+        padding: 0 21%;
+    }
+
+    .img-slogan {
+        display: none;
+    }
+    .p1 {
+        top: 275px;
+        right: 155px;
+    }
+
+    .a-img {
+        display: none
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .btn-area a {
+        font-size: 85px;
+    }
+}
+
+@media (max-width: 760px) {
+    .btn-area a {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .info-text-area {
+        left: 0px;
+        padding: 0px 5%;
+    }
+
+    
+    .btn-area a {
+        font-size: 55px;
+    }
+
+    .btn-area strong {
+        top: -55px;
+    }
+
+    .just-area {
+        height: 865px;
+    }
 }

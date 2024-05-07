@@ -1,111 +1,133 @@
-﻿main{
-    height: 1150px;
-}
-
+﻿
 .text-area {
-    width: 400px;
-    height: 800px;
     position: relative;
-    left: 250px;
+    height: 615px;
     top: 80px;
+    margin-left: 22%;
+    margin-right: 22.7%;
 }
 
 .p-1 {
-    color: #84db00; 
-    font-size: 15px;
+    padding: unset !important;
+    position: relative;
+    left: 10px;
+    top: 60px;
+    color: #84db00;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 
 .p-2 {
-    font-size: 70px;
-    position: relative;
-    top: -45px;
-    width: 400px;
-}
-
-.p-2 span{
-    position: relative;
-    top: -45px;
+    font-size: 75px;
+    position: absolute;
+    top: 80px;
+    
+    color: black;
+    line-height: .8;
 }
 
 .p-3 {
-    position: relative;
-    top: -90px;
-    font-size: 30px;
+    padding: unset !important;
+    position: absolute;
+    
+    top: 250px;
+    font-size: 25px;
+    line-height: 1.4;
 }
 
 .p-4 {
-    position: relative;
-    top: -115px;
-    left: -5px;
-    font-size: 18px;
-    width: 420px;
+    padding: unset !important;
+    position: absolute;
+    
+    top: 420px;
+    font-size: 15px;
 }
 
 .text-area a {
-    border-radius: 20px;
-    padding: 5px 30px;
-    position: relative;
-    top: -130px;
-    left: 50px;
-    text-decoration: none;
+    position: absolute;
+    
+    top: 565px;
     color: black;
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 15px;
     background-color: #84db00;
-    cursor: pointer;
-
 }
 
 .partilha {
     position: relative;
-    top: -155px;
-    left: 270px;
+    left: 235px;
+    top: 540px;
+    font-size: 8px;
+    font-family: Quicksand;
+    font-style: italic;
 }
+
 
 .images-carausel {
-    position: relative;
-    left: 550px;
-    top: -700px;
+    position: absolute;
+    right: 0;
+    top: 100px;
 }
 
-.images-carausel img{
-    width:650px;
-    height: auto;   
-}
+    .images-carausel img {
+        width: 430px;
+        height: 320px;
+        object-fit: cover;
+    }
 
 .carousel-btn-1 {
-    width: 35px;
-    height: auto;
-    position: relative;
-    top: 10px;
-    left: 300px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 345px;
+    left: 335px;
     border: black 1px solid;
-    border-radius: 60%;
+    border-radius: 50%;
 }
+
 .carousel-btn-2 {
-    width: 35px;
-    height: auto;
-    position: relative;
-    top: -23px;
-    left: 350px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 345px;
+    left: 400px;
     border: black 1px solid;
-    border-radius: 60%;
+    border-radius: 50%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px !important;
+    height: 1rem !important;
+    color: black !important;
 }
 
-
-.setores{
-    position: relative;
-    top: -220px;
-    left: 770px;
+.setores {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
     font-size: 25px;
-    width:420px;
-    text-align:end
-}
-.s-p-2{
-    font-size: 20px;
+    width: 420px;
+    text-align: end;
+    right: 22.7%;
+    /* margin-bottom: 64px; */
 }
 
-.movin-text-area{
+.s-p-1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.s-p-2 {
+    font-size: 15px;
+}
+
+.movin-text-area {
     position: relative;
-    top: -150px;
+    top: 130px;
+    height: 435px;
 }
 
 .scrolling_text {
@@ -114,6 +136,7 @@
     display: flex;
     white-space: nowrap;
 }
+
 .scrolling_text-rev {
     width: 100%;
     overflow: hidden;
@@ -124,21 +147,29 @@
 .text span {
     margin: 0 40px;
 }
+
 .text-rev span {
     margin: 0 40px;
 }
 
 .text {
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 100px;
     text-transform: uppercase;
     animation: animate_text 30s linear infinite;
 }
+
 .text-rev {
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 100px;
     text-transform: uppercase;
     animation: animate_text 30s reverse infinite;
+}
+
+.mini {
+    font-size: 15px;
+    color: #84db00;
+    position: relative;
+    top: -60px;
+    left: 115px;
 }
 
 @keyframes animate_text {
@@ -150,6 +181,7 @@
         transform: translate3d(-100%, 0, 0);
     }
 }
+
 @keyframes animate_text-rev {
     from {
         transform: translate3d(-100%, 0, 0);
@@ -160,189 +192,94 @@
     }
 }
 
-@media screen and (max-width:576px){
-    main{
-        height:1300px;
-    }
-    .text-area{
-        left:0px;
-        text-align:center;
-    }
-    .text-area a{
-        left:-50px;
-    }
-    .partilha{
-        left:90px;
-    }
-    .images-carausel img{
-        width: 400px;   
-    }
-    .images-carausel {
-        left: 20px;
-        top: -100px;
-    }
-    .setores{
-        top: 250px;
-        left:0px;
-    }
-    .movin-text-area{
-        top: 225px;
+@media (max-width: 1400px) {
+    .text-area {
+        margin-left: 15%;
     }
 }
-@media screen and (min-width: 576px){
+
+@media (max-width: 1250px) {
     .text-area {
-        left: 60px;
-        text-align: center;
+        margin-left: 10%;
     }
+}
 
-    .images-carausel img {
-        width: 450px;
+@media (min-width: 750px) and (max-width: 1150px) {
+    .text-area {
+        margin-left: 5%;
     }
+}
 
-    .images-carausel {
-        left: 20px;
-        top: -100px;
+@media (max-width: 1250px) {
+    .text-area {
+        margin-right: 15%;
     }
 
     .setores {
-        top: 250px;
-        left: 0px;
-    }
-
-    .movin-text-area {
-        top: 220px; 
-    }
-    footer{
-        margin-top:100px
+        right: 15%;
     }
 }
-@media screen and (min-width:768px) {
-    main{
-        height: 1100px;
-    }
+
+@media (max-width: 950px) {
     .text-area {
-        left: 0px;
-        text-align: center;
+        margin-right: 10%;
     }
 
+    .setores {
+        right: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .text-area {
+        margin-right: 5%;
+    }
+
+    .setores {
+        right: 5%;
+    }
+}
+
+@media (max-width: 800px) {
     .images-carausel img {
-        width: 300px;
-    }
-
-    .images-carausel {
-        left: 395px;
-        top: -500px;
-    }
-
-    .carousel-btn-1 {
-        top: 10px;
-        left: 200px;
+        width: 360px;
+        height: 270px;
+        object-fit: cover;
     }
 
     .carousel-btn-2 {
-        top: -23px;
-        left: 250px;
-    }
-    .setores {
-        top: 160px;
-        left: 0px;
-    }
-
-    .movin-text-area {
-        top: 160px;
-    }
-
-    .text-area a {
-        left: -80px;
-    }
-
-    .partilha{
-        left:  60px;   
-
-    }
-    .setores {
-        top: -200px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 280px;
         left: 300px;
-    }
-
-
-    .movin-text-area{
-        top: -150px;
-    }
-
-}
-
-@media screen and (min-width: 992px){
-    .text-area{
-        left: 25px;
-    }
-
-    .images-carausel img{
-        width: 400px;
-    }
-    .images-carausel{
-        left: 500px;
+        border: black 1px solid;
+        border-radius: 50%;
     }
 
     .carousel-btn-1 {
-        top: 10px;
-        left: 250px;
-    }
-
-    .carousel-btn-2 {
-        top: -23px;
-        left: 300px;
-    }
-    .setores{
-        left: 500px;
-        top: -150px;   
-    }
-
-    .movin-text-area {
-        top: -50px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 280px;
+        left: 240px;
+        border: black 1px solid;
+        border-radius: 50%;
     }
 }
 
-@media screen and (min-width: 1200px){
+@media (max-width: 749px) {
     .text-area {
-        left: 100px;
+        margin-left: 25%;
     }
 
-    .images-carausel img {
-        width: 450px
-    }
-
-    .setores{
-        left: 600px;
-    }
-}
-
-@media screen and (min-width: 1400px){
-    .text-area {
-        left: 250px;
+    .setores {
+        left: 10%;
+        position: relative;
+        top: 120px;
     }
 
     .images-carausel {
-        left: 550px;
-        top: -600px;
-    }
-
-    .images-carausel img {
-        width: 650px;
-    }
-
-    .carousel-btn-1 {
-        top: 10px;
-        left: 300px;
-    }
-
-    .carousel-btn-2 {
-        top: -23px;
-        left: 350px;
-    }
-
-    .setores {
-        top: -100px;
-        left: 770px;
+        display: none;
     }
 }

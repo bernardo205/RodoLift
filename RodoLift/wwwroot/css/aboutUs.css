@@ -1,166 +1,170 @@
-﻿.text-area{
-    width: 450px;
-    height:700px;
+﻿main {
+    height: 1259px;
+}
+
+.text-area {
     position: relative;
-    left: 250px;
-    top: 100px;
+    height: 615px;
+    margin-top: 80px;
+    padding-left: 340px;
+    
 }
 
 .p-1 {
+    padding: unset !important;
+    position: relative;
+    left: 10px;
+    top: 60px;
     color: #84db00;
-    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12px;
+    
 }
 
-.p-2{
-    font-size: 65px;
-    position:relative;
-    top: -45px;
+.p-2 {
+    font-size: 75px;
+    position: absolute;
+    top: 60px;
+    
+    color: black;
+    line-height: .8;
 }
 
 .p-3 {
-    position: relative;
-    top: -50px;
+    padding: unset !important;
+    position: absolute;
+    
+    top: 200px;
     font-size: 25px;
+    line-height: 1.4;
 }
 
 .p-4 {
-    position: relative;
-    top: -65px;
-    font-size: 18px;
+    padding: unset !important;
+    position: absolute;
+    
+    top: 395px;
+    font-size: 15px;
 }
 
 .text-area a {
-    border: black 1px solid;
-    border-radius: 20px;
-    padding: 5px 30px;
-    position: relative;
-    top: -40px;
-    left: 80px;
-    text-decoration: none;
+    position: absolute;
+    
+    top: 565px;
+    border: 1px solid black;
     color: black;
-    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 15px;
 }
 
 .partilha {
     position: relative;
-    top: -65px;
-    left: 270px;
+    left: 175px;
+    top: 580px;
+    font-size: 8px;
+    font-family: Quicksand;
+    font-style: italic;
+
 }
 
 .mask {
-    width: 700px;
-    height: 385px;
+    width: 290px;
+    height: 495px;
     background-color: #84bd00;
-    mask-image: url(../img/i.png);
-    mask-size: 200px;
+    mask-image: url(../img/i.jpg);
+    mask-size: 286px;
     mask-repeat: no-repeat;
+    position: absolute;
+    top: 115px;
+    right: 350px;
+}
+
+.moveIt {
+    width: 100%;
     position: relative;
-    left: 550px;
-    top: -550px;
-  }
-
-.moveIt{
-    max-width: 1440px;
-    position:relative;
-    z-index: 2;
+    bottom: -41.5px;
 }
 
-.image-area img{
-    padding: 0px;
-    margin: 0px;
+.image-area {
+    display: flex;
+    width: 100%;
+    height: 440px;
 }
 
-@media screen and (max-width: 576px){
-    .text-area{
-        left: 0px;
-        text-align:center;
+    .image-area img {
+        width: 45%;
+        height: 100%;
+        object-fit: cover;
     }
-    .text-area a{
-        left:-100px;
+    @media (max-width: 1450px) {
+        .text-area {
+            padding-left: 270px;
+        }
     }
-    .partilha{
-        left:20px;
+
+    @media (max-width: 1350px) {
+        .text-area {
+            padding-left: 220px;
+        }
     }
-    .mask{
-        display:none;
+
+    @media (max-width: 1300px) {
+        .text-area {
+            padding-left: 130px;
+        }
     }
-    .moveIt{
-        width:100%;
+
+     @media (max-width: 1200px) {
+        .mask {
+            right: 250px;
+        }
+     }
+
+@media (max-width: 1150px) {
+    .mask {
+        right: 200px;
     }
 }
 
-@media screen and (min-width: 576px){
+@media (max-width: 1100px) {
+    .mask {
+        right: 150px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .mask {
+        right: 100px;
+    }
+}
+
+@media (max-width: 950px) {
+    .mask {
+        right: 50px;
+    }
+
     .text-area {
-        left: 75px;
-        text-align: center;
+        padding-left: 100px;
     }
+}
 
-    .text-area a {
-        left: -70px;
-    }
-
-    .partilha {
-        left: 50px;
-    }
-
+@media (max-width: 850px) {
     .mask {
         display: none;
     }
 
-    .moveIt {
-        width: 100%;
-    }
-    .image-area img{
-        margin-left: 15px;
-        margin-bottom: 5px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .text-area{
-        text-align: start
-    }
-    .text-area a{
-        left: 0px;
-    }
-    .partilha{
-        left:180px;
-    }
-    .mask{
-        display: inherit;
-        left: 450px;
-    }
-    .image-area img {
-        margin-left: 100px;
-        margin-bottom: 5px;
+    .text-area {
+        padding: 0 150px;
     }
 }
 
-@media screen and (min-width:992px){
-    .mask{
-        left: 550px;
-    }
-    .text-area a{
-        top:-70px;
-    }
-    .partilha{
-        top:-95px;
-    }
-    .image-area img{
-        margin-left: -5px;
-    }
-}
+@media (max-width: 600px) {
 
-@media screen and (min-width:1200px){
-    .text-area{
-        left:250px;
-    }
-}
-
-@media screen and (min-width:1400px){
-    ..image-area{
-        margin:0px;
-    }
-    .image-area img {
-        margin-left: 0px;
+    .text-area {
+        padding: 0 20px;
     }
 }
